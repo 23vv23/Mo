@@ -35,3 +35,28 @@ html {
       margin: 0 auto;
       padding: 0px 15px;
   }
+  .contanier-fluid{
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 0px 30px;
+  }
+
+  @media (max-width:720px){
+      .contanier-fluid{
+        padding: 0px 15pc;
+      }
+  }
+
+  .title{
+    text-align: center;
+    color: $bg;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    margin-bottom: 30px;
+  }
+
+  .rate-star{
+    display: inline-block;
+    margin-right: 13px;
+  }
